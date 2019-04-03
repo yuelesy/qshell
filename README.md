@@ -17,7 +17,9 @@
 <br>
 qshell account < Your AccessKey > < Your SecretKey > < Your Name >
  <br>
-添加账号后查看qshell user lookup <Your Name>
+添加账号后可以进行查看
+<br>
+qshell user lookup <Your Name>
 
 2.获取空间所有文件，输出到命令行上
 ------
