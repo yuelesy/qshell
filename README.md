@@ -19,13 +19,13 @@ qshell account < Your AccessKey > < Your SecretKey > < Your Name >
  <br>
 添加账号后可以进行查看
 <br>
-qshell user lookup <Your Name>
+qshell user lookup < Your Name >
 
 2.获取空间所有文件，输出到命令行上
 ------
 <br>
 qshell listbucket
-<br>
+
 3.将这个空间里的所有文件保存到本地
 ------
 qshell listbucket space -o space.list.txt
@@ -34,7 +34,7 @@ qshell listbucket space -o space.list.txt
 4.本地保存的文件进行处理
 ------
 <br>
-只需要第一列有文件名的密钥，使用一条awk字符处理命令就可以了cat space.list.txt | awk'{print $ 1}'> list.txt space.list.txt（为之前跑命令保存到本来的文件名）
+只需要第一列有文件名的密钥，使用一条awk字符处理命令就可以了cat space.list.txt | awk'{print $ 1}'> list.txt list.txt（为之前跑命令保存到本来的文件名）
 <br>
 5.将失效空间的文件复制到新空间（space为失效空间名，test为新建空间名，list.txt为处理后的文件）
 ------
