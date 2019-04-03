@@ -12,10 +12,9 @@
 <br>
 根据下载的路径
 <br>
+在命令行中输入export PATH = $ PATH：/Users/apple/qshell-v2.3.6/
 
-如命令行中输入出口PATH = $ PATH：/Users/apple/qshell-v2.3.6/
-
-1.添加密钥和账户名称AK，SK在七牛个人中心的密码管理，名称为空间名
+1.添加密钥和账户名称,AK、SK在七牛个人中心的密码管理，名称为空间名
 ------
 <br>
 qshell account <Your AccessKey> <Your SecretKey> <Your Name>
@@ -24,7 +23,9 @@ qshell account <Your AccessKey> <Your SecretKey> <Your Name>
 
 2.获取空间所有文件，输出到命令行上
 ------
+<br>
 qshell listbucket
+<br>
 3.将这个空间里的所有文件保存到本地
 ------
 qshell listbucket space -o space.list.txt
