@@ -15,7 +15,7 @@
 1.添加密钥和账户名称,AK、SK在七牛个人中心的密码管理，名称为空间名
 ------
 <br>
-qshell account <Your AccessKey> <Your SecretKey> <Your Name>
+qshell account < Your AccessKey > < Your SecretKey > < Your Name >
  <br>
 添加账号后查看qshell user lookup <Your Name>
 
