@@ -10,7 +10,7 @@
 <br>
 把qshell所在的目录加入到环境变量$PATH中去
 <br>
-在命令行中输入export PATH = $ PATH：/Users/apple/qshell-v2.3.6/
+如在命令行中输入export PATH = $ PATH：/Users/apple/qshell-v2.3.6/
 
 1.添加密钥和账户名称,AK、SK在七牛个人中心的密码管理，名称为空间名
 ------
