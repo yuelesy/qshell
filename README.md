@@ -35,7 +35,7 @@ qshell listbucket space -o space.list.txt
 ------
 <br>
 只需要第一列有文件名的密钥，使用一条awk字符处理命令就可以了cat space.list.txt | awk'{print $ 1}'> list.txt list.txt（为之前跑命令保存到本来的文件名）
-<br>
+
 5.将失效空间的文件复制到新空间（space为失效空间名，test为新建空间名，list.txt为处理后的文件）
 ------
 qshell batchcopy --force --overwrite space text -i list.txt
