@@ -8,7 +8,10 @@
 把qshell所在的目录加入到环境变量
 ------
 <br>
-$PATH中去在mac中将qshell加入到环境变量中，根据下载的路径
+把qshell所在的目录加入到环境变量$PATH中去
+<br>
+根据下载的路径
+<br>
 
 如命令行中输入出口PATH = $ PATH：/Users/apple/qshell-v2.3.6/
 
