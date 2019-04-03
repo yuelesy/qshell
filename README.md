@@ -22,7 +22,6 @@ qshell account <Your AccessKey> <Your SecretKey> <Your Name>
 2.获取空间所有文件，输出到命令行上
 ------
 qshell listbucket
-<br>
 3.将这个空间里的所有文件保存到本地
 ------
 qshell listbucket space -o space.list.txt
