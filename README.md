@@ -21,8 +21,7 @@ qshell user lookup space
 
 2.获取空间所有文件，输出到命令行上
 ------
-<br>
-qshell listbucket
+qshell listbucket < Your Name >
 
 3.将这个空间里的所有文件保存到本地
 ------
